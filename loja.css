@@ -1359,7 +1359,7 @@ h1{
 
 @media  screen and (min-width:2550px) {
        .base{
-      width: max-content;
+      width: 3300px;
 
     }
     
@@ -1386,7 +1386,7 @@ h1{
   
   .icones_exibiçao,.icones_exibiçao2{
       height: auto;
-      width: max-content;
+      width:  3300px;
       padding: 15px;
   }
   .pr{
@@ -1418,7 +1418,7 @@ h1{
   }
   
   .produtos_exb{
-    width:max-content;
+ width: 3300px;
     background-color: rgb(54, 54, 114);
   }
 
