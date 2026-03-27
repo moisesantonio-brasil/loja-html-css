@@ -3,9 +3,8 @@ body{
     background-color:lightskyblue;
 }
 .base{
-    width: auto;
     height: 100px;
-    background-color:#38B6FF;
+     background-color: rgb(54, 54, 114);
     display: flex;
     flex-wrap: wrap;
 }
@@ -19,11 +18,11 @@ width: 100px;
     margin-top: 120px;
     margin-left: 20px;
     border-radius: 20px;
-    border: none;
+    border: none; 
     background-color: rgb(255, 255, 255);
     color: darkblue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-transform:uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 .exb{
     margin-left: 3px;
@@ -43,13 +42,13 @@ width: 100px;
     border: 1px solid gray;
     font-size: 20px;
     text-indent: 10px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     outline: none;
 }
 .icones_exibiçao{
     width: auto;
     height: 250px;
-    background-color: #46afec;
+    background-color: rgb(54, 54, 114);
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
@@ -58,7 +57,7 @@ width: 100px;
 .icones_exibiçao2{
     width: auto;
     height: 250px;
-    background-color: #46afec;
+    background-color: rgb(54, 54, 114);
     display: flex;
     flex-wrap: wrap;
     display: none;
@@ -135,7 +134,7 @@ background-color:lightslategray
 .base_amostra{
     width: 200px;
     height: 35px;
-    background-color: rgb(47, 50, 250);
+    background-color: rgb(20, 20, 27);
     color: white;
    
 }
@@ -149,27 +148,33 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 17px;
     width: 100px;
-    background-color:cadetblue;
+    background-color: rgb(54, 54, 114);
     border-radius: 10px 0px 0px 10px;
     text-align: center;
     margin-left: 90px;
-    margin-top: 5px;
+    margin-top: 5px; color: white;
 }
 @media  screen and (min-width:300px) {
     .base{
-      height: 285px;
+      height: 350px;
+      width: 340px;
+      background-color: rgb(54, 54, 114);
+      margin-bottom: 10px;
     }
       .logo{
-      margin-left: 120px;
+      margin-left:100px;
       margin-right: 10px;
       width: 150px;
       height: 150px;
+      border-radius: 20px;
+      margin-top: 20px;
     }
     .btn_exb{
         margin-top: 0px;
         width: 130px;
-        font-size: 12px;
-        margin-left: 25px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 20px;
     }
       #pesq{
       margin-top: 5px;
@@ -179,6 +184,7 @@ h1{
   
   .icones_exibiçao,.icones_exibiçao2{
       height: auto;
+      width:340px;
   }
   .pr{
       height: 140px;
@@ -191,45 +197,50 @@ h1{
       height: 50px;
       width: 30px;
       margin-left: 10px;
- 
-      margin-top: 40px;
+      margin-top: 60px;
+      cursor: pointer;
   }
-  .drt{
+  .drt,.drt2{
       height: 50px;
       width: 30px;
-      margin-top: 40px;
-  }
-  .drt2{
-      margin-left: 5px;
-      height: 50px;
-      width: 30px;
-      margin-top: 40px;
-  }
+      margin-top: 60px;
+      margin-left: 15px;
+      cursor: pointer;
+  } 
+
   .exb{
       width: 335px;
       margin-left: 5px;
   }
   .amostra{
-      margin-left: 70px;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+  .produtos_exb{
+    width: 340px;
   }
   
   }
   
   @media  screen and (min-width:410px) {
     .base{
-      height: 285px;
+       height: 40px;
+      width: 410px;
     }
       .logo{
       margin-left: 120px;
       margin-right: 50px;
-      width: 150px;
-      height: 150px;
+      margin-top: 20px;
+      width: 180px;
+      height: 180px;
     }
     .btn_exb{
         margin-top: 0px;
-        width: 88px;
-        font-size: 10px;
-        margin-left: 10px;
+        width: 140px;
+        font-size: 14px;
+        padding: 4px;
+        margin-left: 40px;
     }
       #pesq{
       margin-top: 5px;
@@ -239,9 +250,12 @@ h1{
   
   .icones_exibiçao,.icones_exibiçao2{
       height: auto;
+      width: 410px;
+      padding: 15px;
   }
   .pr{
-      height: 150px;
+      height: 170px;
+      width: 150px;
       margin:auto;
       margin-top: 10px;
       margin-left: 10px;
@@ -250,19 +264,13 @@ h1{
   .esq,.esq2{
       height: 50px;
       width: 50px;
+      margin-left: 0px;
+      margin-top: 60px;
+  }
+  .drt,.drt2{
+      height: 50px;
+      width: 50px;
       margin-left: 10px;
- 
-      margin-top: 60px;
-  }
-  .drt{
-      height: 50px;
-      width: 50px;
-      margin-top: 60px;
-  }
-  .drt2{
-      margin-left: 5px;
-      height: 50px;
-      width: 50px;
       margin-top: 60px;
   }
   .exb{
@@ -273,34 +281,45 @@ h1{
       margin-left: 100px;
   }
   
+  .produtos_exb{
+    width: 410px;
+    background-color: rgb(54, 54, 114);
   }
-  @media  screen and (min-width:420px) {
+
+  }
+ @media  screen and (min-width:420px) {
     .base{
-      height: 285px;
+       height: 350px;
+      width: 450px;
     }
       .logo{
       margin-left: 120px;
       margin-right: 50px;
+      margin-top: 20px;
       width: 180px;
       height: 180px;
     }
     .btn_exb{
         margin-top: 0px;
-        width: 85px;
-        font-size: 10px;
-        margin-left: 10px;
+        width: 140px;
+        font-size: 14px;
+        padding: 4px;
+        margin-left: 40px;
     }
       #pesq{
       margin-top: 5px;
       margin-left: 10px;
-      width: 370px;
+      width: 375px;
     }
   
   .icones_exibiçao,.icones_exibiçao2{
       height: auto;
+      width: 410px;
+      padding: 15px;
   }
   .pr{
-      height: 150px;
+      height: 170px;
+      width: 150px;
       margin:auto;
       margin-top: 10px;
       margin-left: 10px;
@@ -309,175 +328,62 @@ h1{
   .esq,.esq2{
       height: 50px;
       width: 50px;
+      margin-left: 0px;
+      margin-top: 60px;
+  }
+  .drt,.drt2{
+      height: 50px;
+      width: 50px;
       margin-left: 10px;
- 
-      margin-top: 60px;
-  }
-  .drt{
-      height: 50px;
-      width: 50px;
-      margin-top: 60px;
-  }
-  .drt2{
-      margin-left: 5px;
-      height: 50px;
-      width: 50px;
       margin-top: 60px;
   }
   .exb{
-      width: 390px;
+      width: 405px;
       margin-left: 5px;
   }
   .amostra{
       margin-left: 100px;
   }
   
+  .produtos_exb{
+    width: 410px;
+    background-color: rgb(54, 54, 114);
   }
-  @media  screen and (min-width:430px) {
+
+  }
+ @media  screen and (min-width:430px) {
     .base{
-      height: 285px;
+       height: 350px;
+      width: 440px;
     }
       .logo{
       margin-left: 120px;
       margin-right: 50px;
-      width: 150px;
-      height: 150px;
-    }
-    .btn_exb{
-        margin-top: 0px;
-        width: 90px;
-        font-size: 10px;
-        margin-left: 10px;
-    }
-      #pesq{
-      margin-top: 5px;
-      margin-left: 10px;
-      width: 390px;
-    }
-  
-  .icones_exibiçao,.icones_exibiçao2{
-      height: auto;
-  }
-  .pr{
-      height: 150px;
-      margin:auto;
-      margin-top: 10px;
-      margin-left: 10px;
-      margin-right: 0px;
-  }
-  .esq,.esq2{
-      height: 50px;
-      width: 50px;
-      margin-left: 10px;
- 
-      margin-top: 60px;
-  }
-  .drt{
-      height: 50px;
-      width: 50px;
-      margin-top: 60px;
-  }
-  .drt2{
-      margin-left: 5px;
-      height: 50px;
-      width: 50px;
-      margin-top: 60px;
-  }
-  .exb{
-      width: 400px;
-      margin-left: 5px;
-  }
-  .amostra{
-      margin-left: 100px;
-  }
-  
-  }
-  @media  screen and (min-width:440px) {
-    .base{
-      height: 285px;
-    }
-      .logo{
-      margin-left: 120px;
-      margin-right: 70px;
-      width: 150px;
-      height: 150px;
-    }
-    .btn_exb{
-        margin-top: 0px;
-        width: 93px;
-        font-size: 10px;
-        margin-left: 10px;
-    }
-      #pesq{
-      margin-top: 5px;
-      margin-left: 10px;
-      width: 400px;
-    }
-  
-  .icones_exibiçao,.icones_exibiçao2{
-      height: auto;
-  }
-  .pr{
-      height: 150px;
-      margin:auto;
-      margin-top: 10px;
-      margin-left: 10px;
-      margin-right: 0px;
-  }
-  .esq,.esq2{
-      height: 50px;
-      width: 50px;
-      margin-left: 10px;
- 
-      margin-top: 60px;
-  }
-  .drt{
-      height: 50px;
-      width: 50px;
-      margin-top: 60px;
-  }
-  .drt2{
-      margin-left: 5px;
-      height: 50px;
-      width: 50px;
-      margin-top: 60px;
-  }
-  .exb{
-      width: 412px;
-      margin-left: 5px;
-  }
-  .amostra{
-      margin-left: 100px;
-  }
-  
-  }
-  @media  screen and (min-width:460px) {
-    .base{
-      height: 285px;
-    }
-      .logo{
-      margin-left: 120px;
-      margin-right: 80px;
-      width: 150px;
-      height: 150px;
-    }
-    .btn_exb{
-        margin-top: 0px;
-        width: 100px;
-        font-size: 10px;
-        margin-left: 10px;
-    }
-      #pesq{
-      margin-top: 5px;
-      margin-left: 10px;
-      width: 420px;
-    }
-  
-  .icones_exibiçao,.icones_exibiçao2{
-      height: auto;
-  }
-  .pr{
+      margin-top: 20px;
+      width: 180px;
       height: 180px;
+    }
+    .btn_exb{
+        margin-top: 0px;
+        width: 140px;
+        font-size: 14px;
+        padding: 4px;
+        margin-left: 40px;
+    }
+      #pesq{
+      margin-top: 5px;
+      margin-left: 10px;
+      width: 375px;
+    }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 410px;
+      padding: 15px;
+  }
+  .pr{
+      height: 170px;
+      width: 150px;
       margin:auto;
       margin-top: 10px;
       margin-left: 10px;
@@ -486,57 +392,62 @@ h1{
   .esq,.esq2{
       height: 50px;
       width: 50px;
+      margin-left: 0px;
+      margin-top: 60px;
+  }
+  .drt,.drt2{
+      height: 50px;
+      width: 50px;
       margin-left: 10px;
- 
-      margin-top: 80px;
-  }
-  .drt{
-      height: 50px;
-      width: 50px;
-      margin-top: 80px;
-  }
-  .drt2{
-      margin-left: 5px;
-      height: 50px;
-      width: 50px;
-      margin-top: 80px;
+      margin-top: 60px;
   }
   .exb{
-      width: 430px;
+      width: 415px;
       margin-left: 5px;
   }
   .amostra{
-      margin-left: 100px;
+      margin-left: 120px;
   }
   
+  .produtos_exb{
+    width: 410px;
+    background-color: rgb(54, 54, 114);
   }
-  @media  screen and (min-width:480px) {
+
+  }
+   @media  screen and (min-width:440px) {
     .base{
-      height: 285px;
-    }
-      .logo{
-      margin-left: 120px;
-      margin-right: 100px;
-      width: 150px;
-      height: 150px;
-    }
-    .btn_exb{
-        margin-top: 0px;
-        width: 105px;
-        font-size: 10px;
-        margin-left: 10px;
-    }
-      #pesq{
-      margin-top: 5px;
-      margin-left: 10px;
+       height: 350px;
       width: 440px;
     }
+      .logo{
+      margin-left: 120px;
+      margin-right: 50px;
+      margin-top: 20px;
+      width: 180px;
+      height: 180px;
+    }
+    .btn_exb{
+        margin-top: 0px;
+        width: 140px;
+        font-size: 14px;
+        padding: 4px;
+        margin-left: 40px;
+    }
+      #pesq{
+      margin-top: 5px;
+      margin-left: 10px;
+      width: 375px;
+    }
   
   .icones_exibiçao,.icones_exibiçao2{
       height: auto;
+      width: 410px;
+      padding: 15px;
   }
   .pr{
-      height: 180px;
+      height: 170px;
+      width: 150px;
       margin:auto;
       margin-top: 10px;
       margin-left: 10px;
@@ -545,433 +456,973 @@ h1{
   .esq,.esq2{
       height: 50px;
       width: 50px;
+      margin-left: 0px;
+      margin-top: 60px;
+  }
+  .drt,.drt2{
+      height: 50px;
+      width: 50px;
       margin-left: 10px;
- 
-      margin-top: 80px;
-  }
-  .drt{
-      height: 50px;
-      width: 50px;
-      margin-top: 80px;
-      margin-left: 15px;
-  }
-  .drt2{
-      margin-left: 15px;
-      height: 50px;
-      width: 50px;
-      margin-top: 80px;
+      margin-top: 60px;
   }
   .exb{
-      width: 454px;
+      width: 415px;
       margin-left: 5px;
   }
   .amostra{
-      margin-left: 20px;
+      margin-left: 120px;
   }
   
+  .produtos_exb{
+    width: 440px;
+    background-color: rgb(54, 54, 114);
+  }
+
+  }
+
+   @media  screen and (min-width:460px) {
+    .base{
+       height: 350px;
+      width: 460px;
+    }
+    
+      .logo{
+      margin-left: 130px;
+      margin-right: 50px;
+      margin-top: 20px;
+      width: 180px;
+      height: 180px;
+    }
+    .btn_exb{
+        margin-top: 0px;
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+        padding: 4px;
+        margin-left: 40px;
+    }
+      #pesq{
+      margin-top: 5px;
+      margin-left: 10px;
+      width: 405px;
+    }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 410px;
+      padding: 15px;
+  }
+  .pr{
+      height: 170px;
+      width: 150px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 50px;
+      width: 50px;
+      margin-left: 0px;
+      margin-top: 60px;
+  }
+  .drt,.drt2{
+      height: 50px;
+      width: 50px;
+      margin-left: 10px;
+      margin-top: 60px;
+  }
+  .exb{
+      width: 425px;
+      margin-left: 5px;
+  }
+  .amostra{
+      margin-left: 120px;
+  }
+  
+  .produtos_exb{
+    width: 460px;
+    background-color: rgb(54, 54, 114);
+  }
+
+  }
+
+    @media  screen and (min-width:480px) {
+    .base{
+       height: 350px;
+      width: 480px;
+    }
+    
+      .logo{
+      margin-left: 180px;
+      margin-right: 50px;
+      margin-top: 20px;
+      width: 180px;
+      height: 180px;
+    }
+    .btn_exb{
+        margin-top: 0px;
+        width: 170px;
+        height: 40px;
+        font-size: 16px;
+        padding: 4px;
+        margin-left: 60px;
+    }
+      #pesq{
+      margin-top: 5px;
+      margin-left: 40px;
+      width: 425px;
+    }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 480px;
+      padding: 15px;
+  }
+  .pr{
+      height: 170px;
+      width: 150px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 30px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 50px;
+      width: 50px;
+      margin-left: 30px;
+      margin-top: 60px;
+  }
+  .drt,.drt2{
+      height: 50px;
+      width: 50px;
+      margin-left: 30px;
+      margin-top: 60px;
+  }
+  .exb{
+      width: 437px;
+      margin-left: 35px;
+  }
+  .amostra{
+      margin-left: 170px;
+  }
+  
+  .produtos_exb{
+    width: 480px;
+    background-color: rgb(54, 54, 114);
+  }
+
   }
   
 @media  screen and (min-width:500px) {
-  .base{
-    height: 285px;
+    .base{
+       height: 350px;
+      width: 520px;
+    }
+    
+      .logo{
+      margin-left: 150px;
+      margin-right: 50px;
+      margin-top: 20px;
+      width: 180px;
+      height: 180px;
+    }
+    .btn_exb{
+        margin-top: 0px;
+        width: 170px;
+        height: 40px;
+        font-size: 17px;
+        padding: 4px;
+        margin-left: 40px;
+    }
+      #pesq{
+      margin-top: 5px;
+      margin-left: 10px;
+      width: 425px;
+    }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 480px;
+      padding: 15px;
   }
-    .logo{
-    margin-left: 150px;
-    width: 180px;
-    height: 180px;
-    margin-right: 100px;
+  .pr{
+      height: 170px;
+      width: 130px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 0px;
   }
-    #pesq{
-    margin-top: 5px;
-    margin-left: 20px;
-    width: 450px;
+  .esq,.esq2{
+      height: 60px;
+      width: 40px;
+      margin-left: 10px;
+      margin-top: 60px;
+  }
+  .drt,.drt2{
+      height: 60px;
+      width: 40px;
+      margin-left: 10px;
+      margin-top: 30px;
+  }
+  .exb{
+      width: 437px;
+      margin-left: 6px;
+  }
+  .amostra{
+      margin-left: 150px;
+  }
+  
+  .produtos_exb{
+    width: 480px;
+    background-color: rgb(54, 54, 114);
   }
 
-.icones_exibiçao,.icones_exibiçao2{
-    height: auto;
-}
-.pr{
-    height: 200px;
-    margin:auto;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 3px;
-}
-.esq,.esq2{
-    height: 50px;
-    width: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 90px;
-}
-.drt{
-    height: 50px;
-    width: 50px;
-    margin-top: 90px;
-    margin-left: 5px;
-}
-.drt2{
-    margin-left: 5px;
-    height: 50px;
-    width: 50px;
-    margin-top: 90px;
-}
-.exb{
-    width: 475px;
-    margin-left: 5px;
-}
-.amostra{
-    margin-left: 40px;
-}
-
-}
+  }
 
 
 @media  screen and (min-width:540px) {
     .base{
-      height: 285px;
+       height: 350px;
+      width: 550px;
     }
+    
       .logo{
-      margin-left: 150px;
+      margin-left: 200px;
+      margin-right: 50px;
+      margin-top: 20px;
       width: 180px;
       height: 180px;
     }
+    .btn_exb{
+        margin-top: 0px;
+        width: 170px;
+        height: 40px;
+        font-size: 17px;
+        padding: 4px;
+        margin-left: 80px;
+    }
       #pesq{
       margin-top: 5px;
-      margin-left: 20px;
-      width: 450px;
+      margin-left: 10px;
+      width: 525px;
     }
   
   .icones_exibiçao,.icones_exibiçao2{
       height: auto;
+      width: 520px;
+      padding: 15px;
   }
   .pr{
-      height: 230px;
+      height: 170px;
+      width: 130px;
       margin:auto;
-      margin-top: 20px;
-      margin-left: 5px;
-      margin-right: 3px;
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 0px;
   }
   .esq,.esq2{
-      height: 50px;
+      height: 60px;
       width: 40px;
-      margin-left: 20px;
-      margin-right: 20px;
-
+      margin-left: 10px;
+      margin-top: 60px;
   }
-  .drt{
-      height: 50px;
+  .drt,.drt2{
+      height: 60px;
       width: 40px;
-  }
-  .drt2{
-      margin-left: 5px;
-      height: 50px;
-      width: 40px;
+      margin-left: 10px;
+      margin-top: 30px;
   }
   .exb{
-      width: 510px;
-      margin-left: 5px;
+      width: 537px;
+      margin-left: 6px;
   }
   .amostra{
-      margin-left: 40px;
+      margin-left: 50px;
   }
   
+  .produtos_exb{
+    width: 550px;
+    background-color: rgb(54, 54, 114);
+  }
+
   }
 
 @media  screen and (min-width:600px) {
-    .exb{
-        margin-top: 10px;
-       width: 570px;
+    .base{
+       height: 350px;
+      width: 620px;
     }
     
-    #pesq{
-        margin-left:40px;
-        margin-top: 10px;
+      .logo{
+      margin-left: 220px;
+      margin-right: 90px;
+      margin-top: 20px;
+      width: 180px;
+      height: 180px;
     }
-    .icones_exibiçao,.icones_exibiçao2{
-        height: auto;
+    .btn_exb{
+        margin-top: 0px;
+        width: 190px;
+        height: 40px;
+        font-size: 17px;
+        padding: 4px;
+        margin-left: 90px;
     }
-    .esq,.esq2{
-        height: 50px;
-        width: 50px;
-        margin-top: 100px;
-        margin-left: 10px;
+      #pesq{
+      margin-top: 5px;
+      margin-left: 10px;
+      width: 590px;
     }
-    .drt,.drt2{
-        width: 50px;
-        height: 50px;
-       
-        margin-top: 120px;
-    }
-    .drt{
-        margin-left: 0px;
-    }
-    .drt2{
-        margin-left: 0px;
-    }
- .pr{
-    height: 240px;
- }
- .amostra{
-    margin-left: 70px;
- }
- .logo{
-    margin-right: 140px;
- }
- .btn_exb{
-    width: 130px;
-    font-size: 13px;
- }
-}
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 590px;
+      padding: 15px;
+  }
+  .pr{
+      height: 230px;
+      width: 140px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 90px;
+      width: 40px;
+      margin-left: 10px;
+      margin-top: 80px;
+  }
+  .drt,.drt2{
+      height: 90px;
+      width: 40px;
+      margin-left: 30px;
+      margin-top: 80px;
+  }
+  .exb{
+      width: 610px;
+      margin-left: 6px;
+  }
+  .amostra{
+      margin-left: 10px;
+  }
+  
+  .produtos_exb{
+    width: 620px;
+    background-color: rgb(54, 54, 114);
+  }
+
+  }
 
 @media  screen and (min-width:700px) {
-    .exb{
-        margin-top: 10px;
-       width: 670px;
+    .base{
+       height: 350px;
+      width: 620px;
     }
     
-    #pesq{
-        margin-left:20px;
-        margin-top: 10px;
+      .logo{
+      margin-left: 240px;
+      margin-right: 50px;
+      margin-top: 20px;
+      width: 180px;
+      height: 180px;
     }
-    .icones_exibiçao,.icones_exibiçao2{
-        height: auto;
+    .btn_exb{
+        margin-top: 0px;
+        width: 240px;
+        height: 40px;
+        font-size: 19px;
+        padding: 4px;
+        margin-left: 50px;
     }
-    .esq,.esq2{
-        height: 50px;
-        width: 50px;
-        margin-top: 100px;
+      #pesq{
+      margin-top: 5px;
+      margin-left: 10px;
+      width: 600px;
     }
-    .drt,.drt2{
-        width: 50px;
-        height: 50px;
-    }
-    .drt{
-        margin-left: 0px;
-    }
-    .drt2{
-        margin-left: 0px;
-    }
- .pr{
-    height: 240px;
- }
- .amostra{
-    margin-left: 70px;
- }
- .logo{
-    margin: 0px;
- }
-}
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 590px;
+      padding: 15px;
+  }
+  .pr{
+      height: 190px;
+      width: 150px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 22px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 60px;
+      width: 40px;
+      margin-left: 10px;
+      margin-top: 60px;
+  }
+  .drt,.drt2{
+      height: 60px;
+      width: 40px;
+      margin-left: 10px;
+      margin-top: 60px;
+  }
+  .exb{
+      width: 600px;
+      margin-left: 6px;
+  }
+  .amostra{
+      margin-left: 70px;
+  }
+  
+  .produtos_exb{
+    width:620px;
+    background-color: rgb(54, 54, 114);
+  }
+ 
+
+  }
 
 
 @media  screen and (min-width:800px) {
     .base{
-        height: 185px;
+       height: 350px;
+      width: 710px;
     }
-.btn_exb{
-    width: 120px;
-    margin-top: 100px;
-}
-    .exb{
-    width: 770px;
-    margin-left: 5px;
-}
-#pesq{
-    margin-left:130px;
-}
-.icones_exibiçao,.icones_exibiçao2{
-    height: auto;
-}
-.pr{
-    height: 330px;
-}
-.esq,.esq2{
-    margin-top: 150px;
-    height: 70px;
-    width: 70px;
-    font-size: 40px;
-}
-.drt,.drt2{
-    margin-top: 150px;
-    height: 70px;
-    width: 70px;
-    font-size: 40px;
-}
-.amostra{
-    margin:auto;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
+    
+      .logo{
+      margin-left: 290px;
+      margin-right: 50px;
+      margin-top: 20px;
+      width: 190px;
+      height: 180px;
+    }
+    .btn_exb{
+        margin-top: 0px;
+        width: 240px;
+        height: 40px;
+        font-size: 19px;
+        padding: 4px;
+        margin-left: 90px;
+    }
+      #pesq{
+      margin-top: 5px;
+      margin-left: 10px;
+      width: 670px;
+    }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 700px;
+      padding: 15px;
+  }
+  .pr{
+      height: 190px;
+      width: 150px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 22px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 60px;
+      width: 40px;
+      margin-left: 10px;
+      margin-top: 60px;
+  }
+  .drt,.drt2{
+      height: 60px;
+      width: 40px;
+      margin-left: 10px;
+      margin-top: 60px;
+  }
+  .exb{
+      width: 690px;
+      margin-left: 6px;
+  }
+  .amostra{
+      margin-left: 30px;
+  }
+  
+  .produtos_exb{
+    width:720px;
+    background-color: rgb(54, 54, 114);
+  }
+ 
 
-}
+  }
 
 
 @media  screen and (min-width:1024px) {
-    .exb{
-        width: 1000px;
-        margin-left: 5px;
+    .base{
+       height: 350px;
+      width: 1000px;
     }
-    #pesq{
-        width: 700px;
-        margin-top: 10px;
-       }
-       .pr{
-        height: 240px;
-       }
-       .esq,.esq2{
-        width: 55px;
-        margin-left: 15px;
-        text-align: center;
-        margin-top: 120px;
-       }
-       .drt,.drt2{
-        width: 55px;
-        margin-top: 120px;
-        margin-left: 10px;
-       }
-}
-@media  screen and (min-width:1152px) {
-    .exb{
-        width: 1152px;
-        margin-left: 5px;
+    
+      .logo{
+      margin-left: 390px;
+      margin-right: 220px;
+      margin-top: 20px;
+      width: 190px;
+      height: 180px;
     }
-    #pesq{
-        width: 600px;
-        margin-left: 250px;
-        margin-top: 10px;
-       }
-       .pr{
-        height: 260px;
-       }
-       .esq,.esq2{
-        margin-left: 25px;
-       }
-       .amostra{
-        margin: 10px;
-        margin-left: 25px;
-       }
-       .logo{
-        margin: 0px;
-    }
-}
-@media  screen and (min-width:1280px) {
-    .exb{
-        width: 1250px;
-        margin-left: 5px;
-    }
-    .pr{
-        height: 290px;
-    }
-    .esq,.esq2{
-        width: 60px;
-        height: 60px;
-        margin-top: 130px;
-        margin-left: 15px;
-    }
-    .drt,.drt2{
-        width: 60px;
-        height: 60px;
-        margin-top: 130px;
-    }
-    .amostra{
-        margin-left: 40px;
-    }
-}
-
-@media  screen and (min-width:1360px) {
-    .exb{
-        width: 1330px;
-        margin-left: 5px;
-    }
-    .esq,.esq2{
-        margin-left: 60px;
-    }
-    .amostra{
+    .btn_exb{
+        margin-top: 0px;
+        width: 180px;
+        height: 40px;
+        font-size: 17px;
+        padding: 4px;
         margin-left: 55px;
     }
-}
-
-@media  screen and (min-width:1400px) {
-    .exb{
-        width: 1370px;
-        margin-left: 5px;
-    }
-    #pesq{
-        width: 700px;
-    }
-    .esq,.esq2{
-        margin-left: 120px;
-    }
-    .amostra{
-        margin-left: 70px;
-    }
-
-}
-@media  screen and (min-width:1500px) {
-    .exb{
-        width: 1470px;
-        margin-left: 5px;
-    }
-    #pesq{
-        width: 800px;
+      #pesq{
+      margin-top: 5px;
+      margin-left: 10px;
+      width: 880px;
     }
   
-    .logo{
-        margin: 0px;
-    }
-
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 920px;
+      padding: 15px;
+  }
+  .pr{
+      height: 240px;
+      width: 130px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 22px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 80px;
+      width: 40px;
+      margin-left: 50px;
+      margin-top: 100px;
+  }
+  .drt,.drt2{
+      height: 80px;
+      width: 40px;
+      margin-left: 20px;
+      margin-top: 100px;
+  }
+  .exb{
+      width: 890px;
+      margin-left: 56px;
+  }
+  .amostra{
+      margin-left: 50px;
+  }
+  
+  .produtos_exb{
+    width:950px;
+    background-color: rgb(54, 54, 114);
+  }
+ 
 }
-@media  screen and (min-width:1600px) {
-    .exb{
-        width: 1575px;
-        margin-left: 5px;
+@media  screen and (min-width:1280px) {
+   .base{
+       height: 300px;
+      width: 1290px;
     }
-    #pesq{
-        width: 900px;
+    
+      .logo{
+      margin-left: 530px;
+      margin-right: 340px;
+      margin-top: 20px;
+      width: 190px;
+      height: 180px;
     }
-    .esq,.esq2{
-        margin-left: 200px;
+    .btn_exb{
+        margin-top: 0px;
+        width: 220px;
+        height: 40px;
+        font-size: 19px;
+        padding: 4px;
+        margin-left: 50px;
     }
-    .amostra{
+      #pesq{
+      margin-top: 5px;
+      margin-left: 10px;
+      width: 1100px;
+    }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 1100px;
+      padding: 15px;
+  }
+  .pr{
+      height: 260px;
+      width: 170px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 22px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 80px;
+      width: 40px;
+      margin-left: 10px;
+      margin-top: 100px;
+  }
+  .drt,.drt2{
+      height: 80px;
+      width: 40px;
+      margin-left: 20px;
+      margin-top: 100px;
+  }
+  .exb{
+      width: 1120px;
+      margin-left: 6px;
+  }
+  .amostra{
+      margin-left: 30px;
+  }
+  
+  .produtos_exb{
+    width:1130px;
+    background-color: rgb(54, 54, 114);
+  }
+}
+@media  screen and (min-width:1500px) {
+     .base{
+       height: 300px;
+      width: 1400px;
+    }
+    
+      .logo{
+      margin-left: 650px;
+      margin-right: 340px;
+      margin-top: 20px;
+      width: 190px;
+      height: 180px;
+    }
+    .btn_exb{
+        margin-top: 0px;
+        width: 220px;
+        height: 40px;
+        font-size: 19px;
+        padding: 4px;
         margin-left: 110px;
     }
-    .pr{
-        margin: 10px;
+      #pesq{
+      margin-top: 5px;
+      margin-left: 100px;
+      width: 1250px;
     }
-
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 1360px;
+      padding: 15px;
+  }
+  .pr{
+      height: 260px;
+      width: 200px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 22px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 110px;
+      width: 40px;
+      margin-left: 110px;
+      margin-top: 100px;
+  }
+  .drt,.drt2{
+      height: 110px;
+      width: 40px;
+      margin-left: 20px;
+      margin-top: 100px;
+  }
+  .exb{
+      width: 1290px;
+      margin-left: 90px;
+  }
+  .amostra{
+      margin-left: 90px;
+  }
+  
+  .produtos_exb{
+    width:1388px;
+    background-color: rgb(54, 54, 114);
+  }
+}
+@media  screen and (min-width:1600px) {
+     .base{
+       height: 300px;
+      width: 1500px;
+    }
+    
+      .logo{
+      margin-left: 800px;
+      margin-right: 340px;
+      margin-top: 20px;
+      width: 190px;
+      height: 180px;
+    }
+    .btn_exb{
+        margin-top: 0px;
+        width: 220px;
+        height: 40px;
+        font-size: 19px;
+        padding: 4px;
+        margin-left: 140px;
+    }
+      #pesq{
+      margin-top: 5px;
+      margin-left: 100px;
+      width: 1350px;
+    }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 1450px;
+      padding: 15px;
+  }
+  .pr{
+      height: 260px;
+      width: 200px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 22px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 110px;
+      width: 40px;
+      margin-left: 190px;
+      margin-top: 100px;
+  }
+  .drt,.drt2{
+      height: 110px;
+      width: 40px;
+      margin-left: 20px;
+      margin-top: 100px;
+  }
+  .exb{
+      width: 1380px;
+      margin-left: 90px;
+  }
+  .amostra{
+      margin-left: 90px;
+  }
+  
+  .produtos_exb{
+    width:1488px;
+    background-color: rgb(54, 54, 114);
+  }
 
    
 }
 @media  screen and (min-width:1700px) {
-    .exb{
-        width: 1680px;
-        margin-left: 5px;
+        .base{
+       height: 300px;
+      width: 1600px;
     }
-    .pr{
-        margin-right: 30px;
+    
+      .logo{
+      margin-left: 800px;
+      margin-right: 340px;
+      margin-top: 20px;
+      width: 190px;
+      height: 180px;
     }
-    .amostra{
-        margin-right: 40px;
+    .btn_exb{
+        margin-top: 0px;
+        width: 220px;
+        height: 40px;
+        font-size: 19px;
+        padding: 4px;
+        margin-left: 140px;
     }
-    .esq,.esq2{
-        margin-left: 240px;
+      #pesq{
+      margin-top: 5px;
+      margin-left: 100px;
+      width: 1430px;
     }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 1550px;
+      padding: 15px;
+  }
+  .pr{
+      height: 260px;
+      width: 200px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 22px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 110px;
+      width: 40px;
+      margin-left: 220px;
+      margin-top: 100px;
+  }
+  .drt,.drt2{
+      height: 110px;
+      width: 40px;
+      margin-left: 20px;
+      margin-top: 100px;
+  }
+  .exb{
+      width: 1480px;
+      margin-left: 90px;
+  }
+  .amostra{
+      margin-left: 90px;
+  }
+  
+  .produtos_exb{
+    width:1560px;
+    background-color: rgb(54, 54, 114);
+  }
+
   
    
 
 }
 @media  screen and (min-width:1800px) {
-    .exb{
-        width: 1780px;
-        margin-left: 5px;
+       .base{
+      width: 2320px;
     }
-    .pr{
-        height: 320px;
+    
+      .logo{
+        margin-left: 1100px;
+        margin-right:400;
+      margin-top: 50px;
+      width: 190px;
+      height: 180px;
     }
-    .esq,.esq2{
-        margin-left: 260px;
-        margin-right: 20px;
+    .btn_exb{
+        margin-top: 0px;
+        width: 200px;
+        height: 40px;
+        font-size: 19px;
+        padding: 4px;
+       margin-left: 500px;
+       display: none;
     }
+      #pesq{
+      margin-top: 5px;
+      margin-left: 340px;
+      width: 1550px;
+    }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 2270px;
+      padding: 15px;
+  }
+  .pr{
+      height: 260px;
+      width: 200px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 72px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 110px;
+      width: 40px;
+      margin-left: 260px;
+      margin-top: 100px;
+  }
+  .drt,.drt2{
+      height: 110px;
+      width: 40px;
+      margin-left: 50px;
+      margin-top: 100px;
+  }
+  .exb{
+      width: 1550px;
+      margin-left: 340px;
+  }
+  .amostra{
+      margin-left: 20px;
+  }
+  
+  .produtos_exb{
+    width:2299px;
+    margin-bottom: 20px;
+    background-color: rgb(54, 54, 114);
+  }
+
+ 
+  
+
+}
+
+@media  screen and (min-width:2550px) {
+       .base{
+      width: 2310px;
+    display:flex;
+    flex-wrap: wrap;
+    }
+    
+      .logo{
+      margin-top: 30px;
+      width: 190px;
+      height: 180px;
+      margin-left: 1500px;
+      margin-right: 1000px;
+    }
+    .btn_exb{
+        margin-top: 0px;
+        width: 250px;
+        height: 40px;
+        font-size: 19px;
+        padding: 4px;
+    margin-left: 200px;
+    }
+      #pesq{
+      margin-top: 5px;
+      margin-left: 400px;
+      width: 1530px;
+    }
+  
+  .icones_exibiçao,.icones_exibiçao2{
+      height: auto;
+      width: 2280px;
+      padding: 15px;
+  }
+  .pr{
+      height: 260px;
+      width: 200px;
+      margin:auto;
+      margin-top: 10px;
+      margin-left: 22px;
+      margin-right: 0px;
+  }
+  .esq,.esq2{
+      height: 110px;
+      width: 40px;
+      margin-left: 520px;
+      margin-top: 100px;
+  }
+  .drt,.drt2{
+      height: 110px;
+      width: 40px;
+      margin-left: 20px;
+      margin-top: 100px;
+  }
+  .exb{
+      width: 1550px;
+      margin-left: 390px;
+  }
+  .amostra{
+      margin-left: 40px;
+  }
+  
+  .produtos_exb{
+    width:2320px;
+    background-color: rgb(54, 54, 114);
+  }
+
  
   
 
